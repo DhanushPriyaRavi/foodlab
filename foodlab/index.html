@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  
+    <title>FOOD LAB</title>
+  </head>
+  <body style="background-color:rgb(210, 255, 189);">
+    <header class="hero-section">
+      <nav class="nav-bar">
+        <div class="container"></div>
+         <div class="topleft"></div>
+        <div class="nav-items"></div>
+        
+
+        
+        <a href="#about">About us</a>
+        <a href="#gallery">Gallery</a>
+
+      
+      <a href="#faq" target="_blank">FAQ</a>
+        <a href="#contact">Contact</a>
+       
+      <a href="login.html">Login</a>
+       
+          
+         
+</div>
+        </div>
+      </nav>
+      <div class="hero-text-section">
+        <h1>Empowering Society</h1>
+        <p>Through Science...</p>
+        <button><a href="">Get Started</a></button>
+        
+        </div> 
+     
+
+    
+    </header>
+    <div class="job-offers">
+      <h1>FARM TO FORK </h1>
+    
+    </div>
+    <section class="jobs-section">
+      <div class="job">
+        <div class="job-title">
+        
+          <img src="bg1.jpg">
+        </div>
+        <div class="job-description">
+            <h4>FARMING</h4>
+            <p>
+            Segregate crop 
+            Store crops Safety.Wash before manufacturing Take care of work areas.</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-title">
+         <img src="img6.jpg">
+       </div>
+        <div class="job-description">
+          <h4>MANUFACTURING</h4>
+          <p>Wacthing with Tools
+            Maintaining Cleanliness
+            Wear Safety Equipment(PPE)</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-title">
+          <img src="rest.jpg">
+        </div>
+  
+        <div class="job-description">
+          <h4>RESTAURANT</h4>
+          <p>MaintainingClean and Hygenic Food Scales Improve Customer Protection</p>      </div>
+    </section>
+    <marquee width="100%" direction="right" height="100px">
+      <h1>FARM</h1>
+      </marquee>
+      <div class="marquee">
+        <ul class="marquee-content">
+          <li><img src="img1.jpg"/> </li>
+          <li><img src="img2.jpg"/> </li>
+          <li><img src="img3.jpg"/> </li>
+          <li><img src="img4.jpg"/> </li>
+          <li><img src="img5.jpg"/></li>
+          <li><img src="bg1.jpg"/> </li>
+          
+          
+        </ul>
+      </div>
+<script>
+  const root = document.documentElement;
+const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+const marqueeContent = document.querySelector("ul.marquee-content");
+
+root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+for(let i=0; i<marqueeElementsDisplayed; i++) {
+  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}
+</script>
+      
+      </div>
+
+        
+    <section class="clt-section">
+      <div class="about-content">
+        <h1>Food Lab Food Safety Services</h1>
+        <p>At Food Lab Food Safety Service, we're dedicated to ensuring top-notch food safety standards.
+           Our expert team offers audits, training, and consultation, tailored to your success.
+         Join us on social media for valuable food safety insights. 
+          Trust us to safeguard your culinary ventures with precision and care.</p>
+      </div>
+    </section>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+          <div class="footer__content grid">
+              <div class="footer__data">
+                  <h3 class="footer__title">FOOD LAB</h3>
+                  <p class="footer__description">Food Lab Food Safety Services.
+                  </p>
+                  <div>
+                      <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                          <i class="ri-facebook-box-fill"></i>
+                      </a>
+                      <a href="https://twitter.com/" target="_blank" class="footer__social">
+                          <i class="ri-twitter-fill"></i>
+                      </a>
+                      <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                          <i class="ri-instagram-fill"></i>
+                      </a>
+                      <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                          <i class="ri-youtube-fill"></i>
+                      </a>
+                  </div>
+              </div>
+
+              <div class="footer__data">
+                  <h3 class="footer__subtitle">About</h3>
+                  <ul>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">About Us</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Features</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">New & Blog</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="footer__data">
+                  <h3 class="footer__subtitle">Company</h3>
+                  <ul>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Team</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Pricing</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Become a member</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="footer__data">
+                  <h3 class="footer__subtitle">Support</h3>
+                  <ul>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">FAQs</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Support Center</a>
+                      </li>
+                      <li class="footer__item">
+                          <a href="" class="footer__link">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="footer__rights">
+              <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+              <div class="footer__terms">
+                  <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                  <a href="#" class="footer__terms-link">Privacy Policy</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+  </body>
+</html>
